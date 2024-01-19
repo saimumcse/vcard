@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.TC018_InfoPage">
+        <methods>
+          <include name="setDriver"/>
+          <include name="closeDriver"/>
+          <include name="Info"/>
+        </methods>
+      </class> <!-- testCases.TC018_InfoPage -->
+      <class name="testCases.TC004_InfoPage">
+        <methods>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testCases.TC004_InfoPage -->
+      <class name="testCases.TC019_InfoPage">
+        <methods>
+          <include name="setDriver"/>
+          <include name="Info"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testCases.TC019_InfoPage -->
+      <class name="testCases.TC009_InfoPage">
+        <methods>
+          <include name="setDriver"/>
+          <include name="Info"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testCases.TC009_InfoPage -->
+      <class name="testCases.TC017_InfoPage">
+        <methods>
+          <include name="Info"/>
+          <include name="setDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testCases.TC017_InfoPage -->
+      <class name="testCases.TC013_InfoPage">
+        <methods>
+          <include name="setDriver"/>
+          <include name="Info"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testCases.TC013_InfoPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
